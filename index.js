@@ -4,7 +4,7 @@ const app = express();
 
 // Respond with "Hello World" when a GET request is made to the root "/"
 app.get('/', (req, res) => {
-  res.send('HELLO FROM SHREE');
+  res.send('Welcome to Docker');
 });
 
 // Start server on port 3000 or custom port via environment variable
